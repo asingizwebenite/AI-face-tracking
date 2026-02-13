@@ -1,0 +1,39 @@
+﻿# Virtual Environment - THIS IS CRITICAL
+.venv/
+venv/
+ENV/
+env/
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+# Model files - DON'T COMMIT THESE
+models/
+*.onnx
+*.h5
+*.tflite
+*.pb
+*.pth
+*.pt
+*.bin
+*.weights
+# Large binary files
+*.dll
+*.pyd
+*.so
+*.exe
+# Data
+data/
+datasets/
+face_db/
+captured_faces/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+# IDE
+.vscode/
+.idea/
